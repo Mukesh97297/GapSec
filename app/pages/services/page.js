@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
-import SlickCarousel from '../carousal/page';
+// import SlickCarousel from '../carousal/page';
 function Services() {
     const [isChecked, setIsChecked] = useState(false);
     const toggleCheckbox = () => {
@@ -176,7 +176,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <SlickCarousel/>
+            {/* <SlickCarousel/> */}
         </div>
     )
 }
