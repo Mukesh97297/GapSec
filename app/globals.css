@@ -18,10 +18,29 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ 
+}
+
+.slick-prev{
+  left: -5px !important;
+   height: 64px !important;
+   color: white !important;
+   opacity: 0.5 !important;
+}
+.slick-next::before{
+  color: #E63232 !important;
+  opacity: 1 !important;
+  height: 64px !important;
+  font-size: 40px!important
+}
+.slick-next{
+  right: -5px !important;
+  height: 64px !important;
+  color: white !important;
+ 
+}
+.slick-prev::before{
+  color: #E63232 !important;
+  height: 64px !important;
+  font-size: 40px!important
 }
