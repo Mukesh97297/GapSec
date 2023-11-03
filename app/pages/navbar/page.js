@@ -77,15 +77,16 @@ const Header = () => {
                 </div>
                 <div className={`md:flex items-center ${isOpen ? 'block' : 'hidden'}`}>
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium  rounded-lg  md:flex-row md:space-x-8 md:mt-0">
-                        <li><a href="/" className="hover:text-blue-500">Home</a></li>
-                        <li><a href="/about" className="hover:text-blue-500">About</a></li>
+                        <li><Link href="/" className="hover:text-blue-500">Home</Link></li>
                         <li>
-                            <button onClick={toggleDropdown} href="/services" className="hover:text-blue-500  mx-2 my-2 md:my-0 cursor-pointer flex items-center">Services
+                            <Link href="/pages/services">
+                            <button onClick={toggleDropdown}  className="hover:text-blue-500  mx-2 my-2 md:my-0 cursor-pointer flex items-center">Services
                             
                             <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                     </svg>
                     </button>
+                            </Link>
                             <div className={`md:absolute mt-2 ${isDropdownOpen ? 'block' : 'hidden'}`} ref={navbarRef}>
                                 <ul className=" bg-red-300 border rounded-lg">
                                     <li>
@@ -111,11 +112,14 @@ const Header = () => {
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="/contact" className="hover:text-blue-500">Contact</a></li>
+                        <li><Link href="/pages/about" className="hover:text-blue-500">About</Link></li>
+                        <li><Link href="/pages/blog" className="hover:text-blue-500">Blog</Link></li>
                     </ul>
                 </div>
                 <div className={`md:flex items-center ${isOpen ? 'block' : 'hidden'}`}>
-                    <button type="button" className="text-[#E63232] rounded-sm border gap-2 border-[#E63232] border-solid w-32  h-11">Contact Us</button>
+                  <Link href="/pages/contact">
+                  <button type="button" className="text-[#E63232] rounded-sm border gap-2 border-[#E63232] border-solid w-32  h-11">Contact Us</button>
+                  </Link>
                 </div>
             </div>
         </nav>

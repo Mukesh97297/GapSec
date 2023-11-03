@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { Link } from 'next/link';
+import Link  from 'next/link';
 import Header from '../navbar/page';
 import Footer from '../footer/page';
 
@@ -79,7 +79,7 @@ function Blog() {
                             <h1 className=' text-2xl font-bold leading-[45px] text-[#050202]'>How to Detect Internet-Facing Assets for Cybersecurity</h1>
                             <p className=' text-sm font-normal leading-6 text-[#0D0D0D] py-5'>Many people shy away from going to the lawyer. Legal tech companies like Helpcheck still help them get their rights.</p>
                         </div>
-                        <a href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline mb-2">Read More</a>
+                        <Link href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline mb-2">Read More</Link>
                     </div>
                     <div className='col-span-12 lg:col-span-4 pb-5 lg:text-start text-center'>
                         <div className='flex lg:justify-start justify-center'>
@@ -90,7 +90,7 @@ function Blog() {
                             <h1 className=' text-2xl text font-bold leading-[45px] text-[#050202]'>How to Detect Internet-Facing Assets for Cybersecurity</h1>
                             <p className=' text-sm font-normal leading-6 text-[#0D0D0D] py-5'>Many people shy away from going to the lawyer. Legal tech companies like Helpcheck still help them get their rights.</p>
                         </div>
-                        <a href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline">Read More</a>
+                        <Link href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline">Read More</Link>
                     </div>
                     <div className='col-span-12 lg:col-span-4 pb-5 lg:text-start text-center'>
                         <div className='flex lg:justify-start justify-center'>
@@ -101,7 +101,7 @@ function Blog() {
                             <h1 className=' text-2xl text font-bold leading-[45px] text-[#050202]'>How to Detect Internet-Facing Assets for Cybersecurity</h1>
                             <p className=' text-sm font-normal leading-6 text-[#0D0D0D] py-5'>Many people shy away from going to the lawyer. Legal tech companies like Helpcheck still help them get their rights.</p>
                         </div>
-                        <a href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline">Read More</a>
+                        <Link href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline">Read More</Link>
                     </div>
                     <div className='col-span-12 lg:col-span-4 pb-5 lg:text-start text-center'>
                         <div className='flex lg:justify-start  justify-center'>
@@ -112,7 +112,7 @@ function Blog() {
                             <h1 className=' text-2xl text font-bold leading-[45px] text-[#050202]'>How to Detect Internet-Facing Assets for Cybersecurity</h1>
                             <p className=' text-sm font-normal leading-6 text-[#0D0D0D] py-5'>Many people shy away from going to the lawyer. Legal tech companies like Helpcheck still help them get their rights.</p>
                         </div>
-                        <a href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline">Read More</a>
+                        <Link href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline">Read More</Link>
                     </div>
                     <div className='col-span-12 lg:col-span-4 pb-5 lg:text-start text-center'>
                         <div className='flex lg:justify-start justify-center '>
@@ -123,7 +123,7 @@ function Blog() {
                             <h1 className=' text-2xl text font-bold leading-[45px] text-[#050202]'>How to Detect Internet-Facing Assets for Cybersecurity</h1>
                             <p className=' text-sm font-normal leading-6 text-[#0D0D0D] py-5'>Many people shy away from going to the lawyer. Legal tech companies like Helpcheck still help them get their rights.</p>
                         </div>
-                        <a href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline">Read More</a>
+                        <Link href="/" className="text-[#E63232] text-base font-semibold leading-[25px] underline">Read More</Link>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 pb-20'>
