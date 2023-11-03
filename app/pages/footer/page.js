@@ -10,7 +10,7 @@ function Footer() {
                         <div className='grid grid-cols-12  py-28' >
                             <div className='lg:col-span-3 col-span-12 '>
                                 <Link href="/" className='flex lg:justify-start  justify-center'>
-                                    <Image src='/Images/Group.png' alt='' width={195} height={58} />
+                                    <Image src='/images/Group.png' alt='' width={195} height={58} />
                                 </Link>
                                 <div className='py-6 flex lg:justify-start  justify-center'>
                                     <Link href="/" className='mr-3'>
