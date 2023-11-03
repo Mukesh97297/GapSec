@@ -78,16 +78,17 @@ const Header = () => {
                 <div className={`md:flex items-center ${isOpen ? 'block' : 'hidden'}`}>
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium  rounded-lg  md:flex-row md:space-x-8 md:mt-0">
                         <li><Link href="/" className="hover:text-blue-500">Home</Link></li>
-                        <li>
-                            <Link href="/pages/services">
-                            <button onClick={toggleDropdown}  className="hover:text-blue-500  mx-2 my-2 md:my-0 cursor-pointer flex items-center">Services
+                        <li className='flex'>
+                            <Link href="/pages/services" className="hover:text-blue-500">
+                            Services
+                            </Link>
+                            <button onClick={toggleDropdown}  className="hover:text-blue-500  mx-1 my-2 md:my-0 cursor-pointer flex items-center">
                             
                             <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                     </svg>
                     </button>
-                            </Link>
-                            <div className={`md:absolute mt-2 ${isDropdownOpen ? 'block' : 'hidden'}`} ref={navbarRef}>
+                            <div className={`md:absolute mt-4 ${isDropdownOpen ? 'block' : 'hidden'}`} ref={navbarRef}>
                                 <ul className=" bg-red-300 border rounded-lg">
                                     <li>
                                         <Link href="/pages/services/defensive"
