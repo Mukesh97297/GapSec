@@ -8,8 +8,8 @@ function Blog() {
     return (
         <div>
             <Header/>
-            <div className='flex justify-center bg-cover bg-no-repeat bg-center relative overflow-hidden  bg-hero-pattern min-h-[566px]'>
-                <div className='md:-top-20 md:-left-11 absolute bg-cover bg-center bg-hero-vector min-h-[892px] min-w-[2323px]' ></div>
+            <div className='flex justify-center bg-cover bg-no-repeat bg-center relative overflow-hidden  bg-hero-pattern md:min-h-[566px] min-h-full md:py-0 py-10'>
+                <div className='md:-top-20 md:-left-11 absolute bg-cover bg-center bg-hero-vector md:min-h-[892px] min-h-full md:min-w-[2323px] min-w-full' ></div>
                 <div className='grid grid-cols-12 justify-center'>
                     <div className='col-span-12 flex justify-center items-center text-center'>
                         <div className='mx-auto max-w-1145 px-4 sm:px-6 lg:px-8  '>
@@ -25,7 +25,7 @@ function Blog() {
                                 </ul>
                             </div>
                             <div className=' py-2'>
-                                <h1 className=' font-bold text-5xl leading-[67px] items-center '>Cybersecurity & Risk <br className='lg:block hidden' /> Management Blog</h1>
+                                <h1 className=' font-bold lg:text-5xl text-3xl lg:leading-[67px] leading-10 items-center '>Cybersecurity & Risk <br className='lg:block hidden' /> Management Blog</h1>
                             </div>
                             <div className=' py-2'>
                                 <p className=' font-normal text-base leading-[25px] items-center text-[#050202]'>Resources to help you keep up to datewith industry insights, <br className='lg:block hidden' /> best practices and more.</p>
