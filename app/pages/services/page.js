@@ -66,7 +66,7 @@ function Services() {
                         </div>
                     </div>
                     <div className='lg:col-span-5 col-span-12 flex lg:justify-end justify-center  lg:py-0 py-5'>
-                        <Image alt='' width={357} height={368} src="/Images/Group (2).png" />
+                        <Image alt='' width={357} height={368} src="/images/Group (2).png" />
                     </div>
                 </div>
             </div>
