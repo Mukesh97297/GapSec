@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Header from '../navbar/page'
 import Footer from '../footer/page'
+import SlickCarousel from '../slider/page'
 
 function About() {
   return (
@@ -64,6 +65,7 @@ function About() {
           </div>
         </div>
       </div>
+      <SlickCarousel/>
      <Footer/>
     </div>
   )

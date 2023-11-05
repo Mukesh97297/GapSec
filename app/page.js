@@ -1,9 +1,9 @@
 
-import SlickCarousel from "./pages/slider/page"
+import Main from "./main"
 export default function Home() {
   return (
     <main>
-     <SlickCarousel/>
+     <Main/>
     </main>
   )
 }

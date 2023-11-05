@@ -3,6 +3,7 @@ import React from 'react'
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
+import SlickCarousel from '../slider/page';
 function Services() {
     const [isChecked, setIsChecked] = useState(false);
     const toggleCheckbox = () => {
@@ -86,6 +87,7 @@ function Services() {
                     </div>
                 </div>
             </div>
+            <SlickCarousel/>
             <div className=' min-h-[1063px]   flex justify-center bg-cover bg-no-repeat bg-center relative bg-rectangle1 py-20' >
                 <div className='inset-0  bg-center, bg-transparent grid '>
                     <div className='mx-auto max-w-1145 px-4 sm:px-6 lg:px-8 grid  items-center'>
